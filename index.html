@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Личная библиотека Дарьи Чикуровой: дизайн, интерфейсы, 3D, игры и код.">
+  <title>Дарья Чикурова — личная библиотека</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="header">
+    <a class="wordmark" href="#main" aria-label="Дарья Чикурова, на главную">дч<span aria-hidden="true">✳</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Меню <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Основная навигация">
+      <button type="button" data-book="about">Обо мне</button>
+      <a href="#works">Все работы</a>
+      <button type="button" data-book="design">Дизайн</button>
+      <button type="button" data-book="volume">3D</button>
+      <button type="button" data-book="games">Игры и код</button>
+      <button type="button" data-book="contact">Контакты</button>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" aria-pressed="false"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-label">Тёмная тема</span></button>
+  </header>
+
+  <main id="main">
+    <section class="library" aria-labelledby="hero-title">
+      <div class="hero-top"><span>ЛИЧНАЯ БИБЛИОТЕКА / ПОРТФОЛИО</span><span>ТОМ I — ∞</span></div>
+      <div class="hero-composition">
+        <div class="hero-heading"><p class="eyebrow">Дарья Чикурова · Designer / Digital Designer</p><span class="hello-label handwritten">привет! это моя</span><h1 id="hero-title"><span class="cutout-word">личная</span><br><em>библиотека.</em><span class="asterisk" aria-hidden="true">✳</span></h1><p class="hero-description">Дизайн, объём, игры и всё,<br>что не помещается в одну обложку.</p><span class="hero-doodle handwritten" aria-hidden="true">собираю идеи<br>и создаю миры ↙</span></div>
+        <aside class="author-note"><span class="tape" aria-hidden="true"></span><span class="note-number">ЛИЧНОЕ ДЕЛО / ДЧ—01</span><div class="identity-art" aria-hidden="true"><span class="identity-monogram">д<br>ч.</span><span class="identity-star">✷</span><span class="identity-orbit"></span><span class="identity-caption">DESIGNER'S<br>IMAGINATION</span></div><p class="identity-name">Даша<br><i>Чикурова</i></p><div class="note-bottom"><span>5+ лет в дизайне</span><span class="small-star" aria-hidden="true">✴</span></div><span class="id-stamp" aria-hidden="true">СДЕЛАНО<br>С ИДЕЕЙ</span><span class="paperclip real-clip" aria-hidden="true"></span></aside>
+        <span class="desk-stamp" aria-hidden="true">OPEN<br>TO IDEAS ✶</span><span class="desk-disc" aria-hidden="true"></span>
+      </div>
+      <div class="shelf-caption"><p class="handwritten">Выбери книгу — познакомимся <span aria-hidden="true">↘</span></p><span>ПЯТЬ КНИГ. ОДНА ИСТОРИЯ.</span></div>
+      <div class="bookshelf" role="group" aria-label="Книги портфолио">
+        <button class="book book-about" data-book="about" type="button"><span class="book-index">01 / ЛИЧНОЕ</span><span class="book-title">Привет,<br>я Даша.</span><span class="cover-flower" aria-hidden="true">✳</span><span class="cover-sticker">Давай<br>знакомиться</span><span class="book-foot">ЗНАКОМСТВО <span aria-hidden="true">↗</span></span></button>
+        <button class="book book-design" data-book="design" type="button"><span class="book-index">02 / ВИЗУАЛЬНОЕ</span><span class="book-title">ДИ<br>ЗАЙН<span class="red-dot" aria-hidden="true"></span></span><span class="cover-caption">от идеи<br>до интерфейса</span><span class="book-foot">ГРАФИКА & WEB <span aria-hidden="true">↗</span></span></button>
+        <button class="book book-volume" data-book="volume" type="button"><span class="book-index">03 / ПРОСТРАНСТВО</span><span class="book-title">В другом<br><i>измерении.</i></span><span class="orbital" aria-hidden="true"><span></span></span><span class="book-foot">ОБЪЁМ / 3D <span aria-hidden="true">↗</span></span></button>
+        <button class="book book-games" data-book="games" type="button"><span class="book-index">04 / ИССЛЕДОВАНИЯ</span><span class="book-title">А что,<br>если<span aria-hidden="true">_</span></span><span class="code-mark" aria-hidden="true">{ ✴ }</span><span class="cover-caption">играть · придумывать · кодить</span><span class="book-foot">ИГРЫ И КОД <span aria-hidden="true">↗</span></span></button>
+        <button class="book book-contact" data-book="contact" type="button"><span class="book-index">05 / ПРОДОЛЖЕНИЕ</span><span class="postage" aria-hidden="true">ДЧ<br>✳<small>ПОЧТА</small></span><span class="book-title">Будем<br><i>на связи.</i></span><span class="envelope-line" aria-hidden="true"></span><span class="book-foot">КОНТАКТЫ <span aria-hidden="true">↗</span></span></button>
+      </div>
+      <div class="shelf-base" aria-hidden="true"></div>
+      <div class="shelf-bottom"><span>СОБРАНО С ЛЮБОПЫТСТВОМ</span><span>Листай. Рассматривай. Возвращайся.</span><span>Д. Ч. / 2026</span></div>
+    </section>
+
+    <section id="works" class="works" aria-labelledby="works-title">
+      <div class="section-heading"><div><p class="eyebrow">ВНЕ КНИЖНОЙ ПОЛКИ / КАТАЛОГ</p><h2 id="works-title">Все <em>работы</em><span aria-hidden="true">↙</span></h2></div><p class="works-note">Здесь появятся мои проекты.<br>Пока — чистые страницы<br>для будущих историй.</p></div>
+      <div class="filter-bar"><div class="filters" role="group" aria-label="Фильтр проектов"><button type="button" data-filter="all" aria-pressed="true">Все</button><button type="button" data-filter="design" aria-pressed="false">Дизайн</button><button type="button" data-filter="dimensional" aria-pressed="false">3D / игры</button></div><p id="project-count" role="status" aria-live="polite"></p></div>
+      <div id="project-grid" class="project-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>В этой категории пока нет работ. Посмотрите другие разделы.</p>
+    </section>
+    <section class="closing-note" aria-label="Контакты"><span aria-hidden="true">✳</span><p>Следующая глава<br>может начаться <em>с разговора.</em></p><button type="button" class="text-link" data-book="contact">Открыть книгу контактов ↗</button></section>
+    <noscript><section class="no-script"><h2>Обо мне</h2><p>Я Даша — дизайнер. Создаю графику и интерфейсы, работаю с 3D, придумываю игровые миры и пишу код. Более 5 лет в дизайне.</p><p>Информация об образовании будет добавлена. Контакты будут добавлены.</p><p>Включите JavaScript для открытия книг, фильтров и просмотра проектов.</p></section></noscript>
+  </main>
+  <footer><span>© 2026 Дарья Чикурова</span><p>JavaScript: фильтрация проектов, переключение темы, мобильное меню, книжная навигация и просмотр проектов.</p><a href="#main">Наверх ↑</a></footer>
+
+  <dialog id="book-dialog" aria-labelledby="book-dialog-title" class="book-dialog">
+    <div class="reader-toolbar"><h2 id="book-dialog-title"></h2><button id="close-book" class="text-link" type="button">На полку <span aria-hidden="true">↗</span></button></div>
+    <div id="spread" class="spread"></div>
+    <div class="reader-controls"><button id="previous-page" type="button" class="round-button" aria-label="Предыдущая страница">←</button><p id="page-status" aria-live="polite" role="status"></p><button id="next-page" type="button" class="round-button" aria-label="Следующая страница">→</button></div>
+  </dialog>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="project-title"><div class="project-dialog-top"><span class="eyebrow">КАРТОЧКА ПРОЕКТА</span><button type="button" id="close-project" class="text-link">Закрыть ×</button></div><div id="project-details"></div></dialog>
+
+  <template id="pages-about">
+    <article class="page page-cover green-page"><span class="page-kicker">ТОМ 01 / ЗНАКОМСТВО</span><h3>Привет,<br>я <em>Даша.</em></h3><div class="album-id"><span class="real-clip" aria-hidden="true"></span><span class="album-id-mark" aria-hidden="true">дч✳</span><strong>Чикурова Дарья</strong><span>Designer / Digital Designer</span><span class="handwritten">идеи бывают объёмными!</span></div><span class="page-flower" aria-hidden="true">✳</span><p>Личная коллекция идей и экспериментов.</p><span class="page-signature">листай, тут всё обо мне ↗</span></article>
+    <article class="page about-story"><span class="page-kicker">НЕМНОГО ОБО МНЕ</span><h3>Идеи любят<br><em>разные формы.</em></h3><p class="lead">Я Даша — дизайнер. Создаю графику и интерфейсы, работаю с 3D, придумываю игровые миры и пишу код. Это моя библиотека: здесь собраны работы, эксперименты и немного обо мне.</p><div class="sticky-note"><strong>5+ лет</strong><span>в дизайне</span></div><p class="handwritten">От плоского листа до целого мира.</p></article>
+    <article class="page"><span class="page-kicker">ЧТО Я ДЕЛАЮ</span><h3>Мои<br><em>инструменты мысли.</em></h3><div class="skill-group"><h4>Визуальный язык</h4><p>Графический дизайн · визитки · плакаты</p></div><div class="skill-group"><h4>Цифровой опыт</h4><p>Веб-дизайн · UI/UX · мобильные приложения · дизайн и создание одностраничных сайтов</p></div><div class="skill-group"><h4>Миры и логика</h4><p>3D · игровые проекты · идеи и концепции игр · Python · C++</p></div></article>
+    <article class="page education-page"><span class="page-kicker">ОПЫТ И ОБРАЗОВАНИЕ</span><h3>Всегда есть<br><em>что открыть.</em></h3><div class="paper-card"><span class="paperclip" aria-hidden="true">⌇</span><h4>Опыт</h4><p>Более 5 лет в дизайне.</p><h4>Образование</h4><p>Информация об образовании будет добавлена.</p></div><p class="handwritten">История продолжается ↗</p></article>
+  </template>
+  <template id="pages-design">
+    <article class="page page-cover blue-page"><span class="page-kicker">ТОМ 02 / ДИЗАЙН</span><h3>Форма.<br>Смысл.<br><em>Характер.</em></h3><div class="type-art" aria-hidden="true">Аа<span>Бб</span></div><p>Графический дизайн · веб-дизайн · UI/UX</p></article>
+    <article class="page"><span class="page-kicker">ГРАФИКА И ИНТЕРФЕЙСЫ</span><h3>От идеи<br><em>к впечатлению.</em></h3><p>Визитки, плакаты, мобильные приложения, одностраничные сайты и интерфейсы.</p><div data-project-section="design" class="book-projects"></div><p class="handwritten">Здесь скоро будут мои работы.</p></article>
+  </template>
+  <template id="pages-volume">
+    <article class="page page-cover yellow-page"><span class="page-kicker">ТОМ 03 / ОБЪЁМ</span><h3>Выйти<br>за <em>плоскость.</em></h3><div class="volume-art" aria-hidden="true"><span></span></div><p>Форма, пространство и третье измерение.</p></article>
+    <article class="page"><span class="page-kicker">ТРЕТЬЕ ИЗМЕРЕНИЕ</span><h3>Место<br><em>для объёма.</em></h3><p>Здесь появятся мои работы в 3D.</p><div data-project-section="volume" class="book-projects"></div><p class="handwritten">Ещё один взгляд на форму ↗</p></article>
+  </template>
+  <template id="pages-games">
+    <article class="page page-cover red-page"><span class="page-kicker">ТОМ 04 / ИГРЫ И КОД</span><h3>А что,<br><em>если…</em></h3><div class="game-art" aria-hidden="true">{<span>✴</span>}</div><p>Придумывать миры. Создавать правила.</p></article>
+    <article class="page"><span class="page-kicker">ИДЕЯ + ЛОГИКА</span><h3>От концепции<br><em>до действия.</em></h3><p>Игровые проекты, разработка идей и концепций игр, программирование на Python и C++.</p><div data-project-section="games" class="book-projects"></div></article>
+  </template>
+  <template id="pages-contact">
+    <article class="page page-cover contact-page"><span class="page-kicker">ТОМ 05 / НА СВЯЗИ</span><h3>Хорошие идеи<br>начинаются<br><em>с «привет».</em></h3><span class="page-flower" aria-hidden="true">✳</span><p>Дарья Чикурова / Digital Designer</p></article>
+    <article class="page"><span class="page-kicker">ПИСЬМО АВТОРУ</span><h3>Будем<br><em>на связи.</em></h3><div class="contact-paper"><span class="tape" aria-hidden="true"></span><p id="contact-placeholder">Контакты будут добавлены</p><div id="contact-links"></div></div><p class="handwritten">Для новых идей всегда есть страница.</p></article>
+  </template>
+</body>
+</html>
